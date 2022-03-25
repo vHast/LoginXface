@@ -1,0 +1,29 @@
+@media (max-width: 768px) {
+  main {
+    min-width: 0;
+  }
+  main h1 {
+    text-align: center;
+  }
+  main form {
+    align-items: center;
+  }
+  main form input {
+    width: 240px;
+  }
+  main form textarea {
+    width: 240px;
+  }
+  main form select {
+    width: 300px;
+  }
+  main form .checks {
+    padding-top: 1.3rem;
+    width: 240px;
+    justify-content: space-around;
+  }
+  main form .btn-submit {
+    margin-top: 4rem;
+  }
+}
+/*# sourceMappingURL=responsive.css.map */

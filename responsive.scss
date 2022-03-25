@@ -1,0 +1,34 @@
+@media (max-width: 768px) {
+
+  
+  main {
+    min-width: 0;
+
+    h1 {
+      text-align: center;
+    }
+
+    form {
+      align-items: center;
+      
+      input {
+        width: 240px;
+      }
+      textarea {
+        width: 240px;
+      }
+      select {
+        width: 300px;
+      }
+      .checks {
+        padding-top: 1.3rem;
+        width: 240px;
+        justify-content: space-around;
+      }
+
+      .btn-submit {
+        margin-top: 4rem;
+      }
+    }
+  }
+}
