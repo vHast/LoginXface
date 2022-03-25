@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Validation form</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+  <main>
+    <h1>User login interface</h1>
+    <form action="">
+      <label for="firstpassword">Enter your password</label>
+      <input type="password">
+      <label for="firstpasswordrepeat">Repeat your password</label>
+      <input type="password">
+      <label for="message">Enter your message</label>
+      <textarea name="messagearea" id="" cols="30" rows="10"></textarea>
+      <label for="selectscroll">Select your favorite animal</label>
+      <select name="" id="selectdown">
+        <option value="">--Please chose an option--</option>
+        <option value="Cat">Cat</option>
+        <option value="Dog">Dog</option>
+        <option value="Tortoise">Tortoise</option>
+        <option value="Bird">Bird</option>
+      </select>
+      <div class="checks" id="firstcheck">
+        <input type="checkbox"><label for="form-check">I agree to provide the information</label>
+      </div>
+      <div class="checks" id="secondcheck">
+        <input type="checkbox"><label for="form-check">I have read privacy policy</label>
+      </div>
+      <div class="checks">
+        <input type="checkbox"><label for="form-check">I have read Terms of Use</label>
+      </div>
+      <div class="checks">
+        <input type="checkbox"><label for="form-check">I have read Cookies Policy</label>
+      </div>
+      <input type="submit" class="btn-submit" value="Submit">
+      <input type="reset" id="reset" class="btn-submit" value="Reset">
+    </form>
+  </main>
+  
+</body>
+</html>
